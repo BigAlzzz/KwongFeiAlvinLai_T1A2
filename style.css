@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #f3f3f3;
+    
     }
 
 header {
@@ -73,11 +73,13 @@ header nav ul li a {
 }
 
 #hero h2 {
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     color:white;
+    padding: 1.2rem;
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
+    text-shadow: 2px 2px 8px #111;
 }
 
 #hero h1 {
@@ -85,4 +87,25 @@ header nav ul li a {
     font-size: 24px;
     color: white;
     font-weight: 900;
+    text-shadow: 2px 2px 8px #111;
+    text-align: center;
 }
+
+.index-links div {
+    margin: 15px 15px 0;
+    width: calc(100%-30px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.index-links div h3 {
+    font-family: 'Catamaran', sans-serif ;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* FOOTER */
