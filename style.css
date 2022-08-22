@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    }
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+header .header-brand {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+    
+}
+
+header nav ul li a {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    color: #111;
+}
+
+.index-banner {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Hero */
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: url('Images/office.jpg') no-repeat center;
+    background-size: cover;
+
+}
+
+#hero img {
+    width: 15w;
+    border-radius: 50%;
+}
+
+#hero h2 {
+    font-family: 'Catamaran', sans-serif;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#hero h1 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+}
