@@ -7,9 +7,6 @@
     padding: 0;
 }
 
-body {
-    
-    }
 
 header {
     background-color: #fff;
@@ -39,7 +36,6 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    float: left;
     list-style: none;
     padding: 0 16px;
     
@@ -49,6 +45,7 @@ header nav ul li a {
     font-family: 'Catamaran', sans-serif;
     font-size: 16px;
     color: #111;
+    text-transform: uppercase;
 }
 
 .index-banner {
@@ -108,4 +105,49 @@ header nav ul li a {
     text-transform: uppercase;
 }
 
+/* Social section */
+#social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #111;
+    padding: 1rem 0;
+}
+
+#social-links p {
+    font-family: 'Catamaran', sans-serif;
+    margin: 0 0 1rem;
+    color: white;
+}
+
+#social-links div div {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 500px){
+    header .header-brand {
+        margin: 31px 0;
+        text-align: left;
+        line-height: 30px;
+        padding: 0px 20px 0px 40px;
+        border-right: 3px solid #111;
+        float: left;
+    }
+header nav ul {
+    margin: 20px 0px 0px 20px ;
+    float: left;
+    }
+
+header nav ul li a {
+    line-height: 60px;
+    }
+    
+}
