@@ -1,0 +1,57 @@
+.projects {
+    padding: 1rem 1rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.projectinfo {
+    background-color: brown;
+}
+
+#first {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.naproject {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+article a:hover {
+    transform: scale(1.10);
+    transition: 0.3s;
+}
+
+article h1 {
+    font-size: clamp(2rem, 6vw + 2rem, 6rem);
+}
+
+article h2 {
+    font-size: clamp(1rem, 1.5vw + 1rem, 4rem);
+}
+
+@media screen and (min-width: 500px) {
+    #projectmain {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    } 
+
+    .projects {
+        flex: 1;
+        height: 50%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .projects > a {
+        margin: auto;
+
+    }
+}
