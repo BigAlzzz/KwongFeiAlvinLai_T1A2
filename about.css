@@ -1,3 +1,60 @@
-#myphoto img {
-    /* border-radius: 50%; */
+.content {
+    display: flex;
+    flex-direction: column; 
+    color: #F9fAf8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
 }
+
+.about-content {
+    text-align: left;
+}
+
+.about-content p {
+    font-family: sans-serif;
+    opacity: 0.7;
+    margin-bottom: 6px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9fAf8;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.about-content button {
+    display: block;
+    text-align: center;
+    width: 100px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 10%;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.about-content img {
+    width: 400px;
+    height: 400px;
+}
+
+@media screen and (min-width: 600px) {
+   .content {
+    display: flex;
+    flex-direction: row;
+   }
+
+   .about-photo img{
+    border-radius: 50%;
+   }
+
+   .about-photo {
+    margin-right: 15px;
+   }
+} 
