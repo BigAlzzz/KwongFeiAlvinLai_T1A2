@@ -1,5 +1,6 @@
 .projects-header {
-    color: #1d3557;
+    color: #fff;
+    background: #1f2937;
     font-family: sans-serif;
     padding-top: 2rem;
     text-align: center;
@@ -8,12 +9,13 @@
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 3rem;
     width: 100%;
     margin: 0 auto;
     margin-bottom: 5rem;
     padding: 2rem;
+    background-color: #1f2937;
 }
 
 .project-tile {
@@ -21,6 +23,7 @@
     border: 2px solid #1d3557;
     border-radius: 25px;
     overflow: hidden;
+    height: max-content;
 }
 
 .project-tile :hover {
@@ -30,7 +33,7 @@
 }
 
 .project-image {
-    height: calc(100% / 350px);
+    height: calc(100% / 400px);
     width: 100%;
     object-fit: cover;
 }
