@@ -1,8 +1,8 @@
 # T1A2 - Kwong Fei Alvin Lai Portfolio
 
-Github link
+[Github repo](https://github.com/BigAlzzz/KwongFeiAlvinLai_T1A2)
 
-netlify link
+[Netlify Link](https://630b32b5f80c1f265314014b--friendly-cat-f0db65.netlify.app/index.html)
 
 ## Purpose
 
