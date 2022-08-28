@@ -1,10 +1,15 @@
 .projects-header {
     color: #fff;
     background: #1f2937;
-    font-family: sans-serif;
+    font-family: 'Catamaran', sans-serif;
     padding-top: 2rem;
     text-align: center;
     font-size: 5vh;
+}
+
+#projects {
+    background-color: #1f2937;
+
 }
 
 .project-grid {
@@ -13,7 +18,6 @@
     grid-gap: 3rem;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 5rem;
     padding: 2rem;
     background-color: #1f2937;
 }
@@ -32,6 +36,11 @@
     transition: background-color 0.3s ease, color 0.32s ease;
 }
 
+.project-tile :hover, :visited, :link, :active
+{
+    text-decoration: none;
+}
+
 .project-image {
     height: calc(100% / 400px);
     width: 100%;
@@ -48,6 +57,7 @@
     padding: 1rem 0.5rem;
     background-color: #a9dadc;
     color: #1d3557;
+    /* text-decoration: none; */
 }
 
 @media (max-width: 600px) {

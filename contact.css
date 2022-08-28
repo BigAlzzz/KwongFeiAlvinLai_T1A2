@@ -17,7 +17,7 @@ main {
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     background-color: #1f2937;
     background-size: cover;
     
@@ -40,6 +40,7 @@ h1 {
 
 .content {
     display: flex;
+    flex-direction: column;
 }
 
 
