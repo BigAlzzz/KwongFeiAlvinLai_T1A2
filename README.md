@@ -2,7 +2,7 @@
 
 [Github repo](https://github.com/BigAlzzz/KwongFeiAlvinLai_T1A2)
 
-[Netlify Link](https://630b32b5f80c1f265314014b--friendly-cat-f0db65.netlify.app/index.html)
+[Netlify Link](https://630b458d6d86c22fed968adf--friendly-cat-f0db65.netlify.app/)
 
 ## Purpose
 
