@@ -1,4 +1,5 @@
 # T1A2 - Kwong Fei Alvin Lai Portfolio
+
 Github link
 
 netlify link
@@ -8,6 +9,7 @@ netlify link
 The purpose of this website is to apply HTML and CSS foundations learnt from Coder Academy to a portfolio webpage. This portfolio can be used and updated to advertise my skills as a web developer.
 
 ## Features
+
 The overall webpage is designed according to a few useability heuristics. These heuristics are as follows.
 -Visibility of system status: Users are able to see what webpage they are on.
 -User control and freedom: There are links to lead to other pages of the website and functionality to go back.
@@ -21,7 +23,24 @@ The webpage consists of.
 
 ## Site Map
 
+![Site Map](/docs/sitemap.png)
+
 ## Webpage screenshot
+
+## Homepage
+![Homepage](/docs/homepage.png)
+
+## About
+![About](/docs/about.png)
+
+## Portfolio
+![Portfolio](/docs/portfolio.png)
+
+## Blog
+![Blog](docs/blog.png)
+
+## Contact
+![Contact](/docs/contact.png)
 
 ## Target Audience
 
